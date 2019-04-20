@@ -433,6 +433,10 @@ USER laradock
 # Node / NVM:
 ###########################################################################
 
+# maybe dont need use ss
+RUN export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+
+
 # Check if NVM needs to be installed
 ARG NODE_VERSION=node
 ENV NODE_VERSION ${NODE_VERSION}

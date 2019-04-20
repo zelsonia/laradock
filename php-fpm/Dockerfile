@@ -390,6 +390,7 @@ ARG INSTALL_MYSQLI=false
 
 RUN if [ ${INSTALL_MYSQLI} = true ]; then \
     docker-php-ext-install mysqli \
+ && docker-php-ext-install mysql \  
 ;fi
 
 ###########################################################################

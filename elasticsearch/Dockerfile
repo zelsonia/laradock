@@ -1,3 +1,3 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.2.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:5.5.3
 
-EXPOSE 9200 9300
+EXPOSE 9400 9500
